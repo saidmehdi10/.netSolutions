@@ -11,11 +11,16 @@ namespace TestUnit
         {
             int valeur = 3;
 
-            int resultat = Math.Factorielle(valeur);
-            Assert.AreEqual(6, resultat);
+            int resultat = HelloWorld.Math.Factorielle();
+            
+
+
+            /**/
+            /***/
+                   Assert.AreEqual(6, resultat);
         }
 
-        [TestMethod]
+        /*[TestMethod]
         public void Factorielle_AvecValeur10_Retourne1()
         {
             int valeur = 10;
@@ -30,6 +35,6 @@ namespace TestUnit
             int resultat = Math.addittion(a, b);
             Assert.AreEqual(2, resultat, "valuer est 2");
 
-        }
+        }*/
     }
 }
